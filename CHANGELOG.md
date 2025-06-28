@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-06-28
+
+### Added
+- **Comprehensive Testing Suite**: Added `test_recaptcha_solver.py` with unit tests, integration tests, and interactive manual testing
+- **Smart Delay Feature**: Added 5-second delay before clicking Buster button for improved success rates
+- **Enhanced Documentation**: Updated README with testing instructions, project structure, and debugging guides
+- **Author Attribution**: Added "Created by: Abdul Muizz" to project documentation
+- **Python Environment Support**: Enhanced .gitignore with comprehensive Python environment files
+
+### Improved
+- **Testing Coverage**: Added prerequisite validation, browser setup testing, and cross-browser compatibility testing
+- **Error Handling**: Enhanced error reporting and debugging capabilities in the testing suite
+- **Project Structure**: Added clear project structure documentation with emojis and descriptions
+- **Installation Process**: Added testing step to installation instructions for better user onboarding
+
+### Changed
+- **README Structure**: Reorganized sections for better navigation and added comprehensive testing documentation
+- **Gitignore Configuration**: Added Python environment files (conda, poetry, pipenv) and removed test file from ignore list
+- **Support Section**: Enhanced with debugging commands and step-by-step troubleshooting
+
+### Technical Details
+- **Test Types**: Unit tests with mocking, integration tests with real browsers, manual interactive tests
+- **Browser Testing**: Edge and Chrome compatibility validation
+- **reCAPTCHA Detection**: Automated iframe detection and validation testing
+- **Debug Mode**: Enhanced logging and troubleshooting capabilities
+
 ## [1.0.0] - 2025-06-28
 
 ### Added
@@ -37,17 +63,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Project Structure
 ```
 recaptcha-solver/
-├── recaptcha_solver.py    # Main solver library
-├── examples.py            # Usage examples
-├── recaptha-solver.py     # Original script (refactored)
-├── requirements.txt       # Python dependencies
-├── setup.py              # Package installation
-├── README.md             # Project documentation
-├── LICENSE               # MIT License
-├── CHANGELOG.md          # This file
-├── .gitignore           # Git ignored files
+├── recaptcha_solver.py       # Main solver library
+├── examples.py              # Usage examples
+├── recaptha-solver.py       # Original script (refactored)
+├── requirements.txt         # Python dependencies
+├── setup.py                # Package installation
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+├── CHANGELOG.md            # This file
+├── .gitignore             # Git ignored files
 └── extensions/
-    └── buster.crx       # Buster extension file
+    └── buster.crx         # Buster extension file
 ```
 
 ### Technical Details
@@ -71,5 +97,6 @@ recaptcha-solver/
 - [ ] Headless mode improvements
 - [ ] Additional CAPTCHA types support
 - [ ] Performance optimizations
-- [ ] Unit tests and CI/CD integration
+- [ ] CI/CD integration with automated testing
 - [ ] Docker container support
+- [ ] Package distribution via PyPI

@@ -193,3 +193,5 @@ test_screenshots/
 debug_logs/
 test_results/
 *.test.log
+recapSolver
+recaptha-solver.py
