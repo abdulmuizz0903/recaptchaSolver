@@ -22,8 +22,8 @@ A Python library for automatically solving reCAPTCHAs using the Buster browser e
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/recaptcha-solver.git
-cd recaptcha-solver
+git clone https://github.com/abdulmuizz0903/recaptchaSolver.git
+cd recaptchaSolver
 ```
 
 2. Install dependencies:
@@ -249,9 +249,7 @@ recaptcha-solver/
 ├── recaptcha_solver.py       # 🎯 Main solver library
 ├── examples.py              # 📚 Usage examples and demos
 ├── test_recaptcha_solver.py # 🧪 Comprehensive test suite
-├── recaptha-solver.py       # 🔄 Original script (refactored)
 ├── requirements.txt         # 📋 Python dependencies
-├── setup.py                # 🛠️ Package installation
 ├── README.md               # 📖 This documentation
 ├── LICENSE                 # ⚖️ MIT License
 ├── CHANGELOG.md            # 📝 Version history

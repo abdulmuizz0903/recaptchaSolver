@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2025-06-28
+
+### Removed
+- **setup.py file**: Removed package installation setup file to simplify project structure
+- **setuptools dependency**: Removed from requirements.txt as no longer needed
+
+### Changed  
+- **Project Structure**: Updated documentation to reflect simplified file structure
+- **Installation Method**: Now uses direct module import instead of package installation
+
+### Technical Details
+- Simplified project to focus on direct module usage rather than formal packaging
+- Reduced dependencies and complexity for easier development and deployment
+
 ## [1.1.0] - 2025-06-28
 
 ### Added
@@ -65,9 +79,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 recaptcha-solver/
 ├── recaptcha_solver.py       # Main solver library
 ├── examples.py              # Usage examples
-├── recaptha-solver.py       # Original script (refactored)
+├── test_recaptcha_solver.py # Comprehensive test suite
 ├── requirements.txt         # Python dependencies
-├── setup.py                # Package installation
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
 ├── CHANGELOG.md            # This file
